@@ -5,7 +5,7 @@ import HomeImg from "../img/home/tyler-waterfall-3.jpg";
 import { Link } from "react-router-dom";
 //import motion
 import { motion } from "framer-motion";
-//import transition
+//import transition fuck
 import { transition1 } from "../transitions";
 // cursor context
 import { CursorContext } from "../context/CursorContext";
