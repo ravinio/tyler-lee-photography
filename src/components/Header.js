@@ -1,7 +1,7 @@
 import React from "react";
 //import componenets
 import Socials from "./Socials";
-import Logo from "../img/header/logo.png"
+import Logo from "../img/logo/cameralogo.png"
 import MobileNav from "./MobileNav";
 //import link
 import { Link } from "react-router-dom";
@@ -12,8 +12,8 @@ const Header = () => {
             <div className='flex lg:flex-row lg:items-center w-full justify-between uppercase'>
                 {/* Logo Section */}
                 <Link to={"/"} className="max-w-[200px]">
-                    {/* <img src={Logo} alt="..." /> */}
-                    logo
+                    <img src={Logo} alt="..." />
+                    {/* logo */}
                 </Link>
 
                 {/* Nav */}
