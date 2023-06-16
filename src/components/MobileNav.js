@@ -53,9 +53,9 @@ const MobileNav = () => {
                     <li>
                         <Link to="/portfolio">Portfolio</Link>
                     </li>
-                    <li>
+                    {/* <li>
                         <Link to="/contact">Contact</Link>
-                    </li>
+                    </li> */}
                 </ul>
             </motion.div>
         </nav>

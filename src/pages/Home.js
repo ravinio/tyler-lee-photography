@@ -33,7 +33,7 @@ const Home = () => {
                         <p className="text-[26px] lg:text-[36px] font-primary mb-4 lg:mb-12">
                             By Tyler Lee
                         </p>
-                        <Link to={"/contact"} className="btn mb-[30px]">hire me</Link>
+                        <Link to={"/portfolio"} className="btn mb-[30px]">view photos</Link>
                     </div>
                     {/* image */}
                     {/* <div className="flex justify-end max-h-96 lg:max-h-max"> */}
