@@ -3,9 +3,7 @@ import React, { useContext } from "react";
 import HomeImg from "../img/home/tyler-waterfall-3.jpg";
 // import link
 import { Link } from "react-router-dom";
-//import motion
-import { motion } from "framer-motion";
-//import transition fuck
+//import transition
 import { transition1 } from "../transitions";
 // cursor context
 import { CursorContext } from "../context/CursorContext";
