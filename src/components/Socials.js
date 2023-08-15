@@ -1,16 +1,11 @@
 import React from "react";
-//import icons
-import { Im500Px, ImTwitter, ImWhatsapp, ImTelegram, ImSkype } from "react-icons/im";
+import { ImTwitter, ImWhatsapp, ImSkype } from "react-icons/im";
 
 const Socials = () => {
+
     return (
         <div className="hidden xl:flex ml-24">
             <ul className="flex gap-x-4">
-                <li>
-                    <a href="https://500px.com/" target="_blank">
-                        <Im500Px />
-                    </a>
-                </li>
                 <li>
                     <a href="https://www.twitter.com" target="_blank">
                         <ImTwitter />
@@ -21,16 +16,12 @@ const Socials = () => {
                         <ImWhatsapp />
                     </a>
                 </li>
-                <li>
-                    <a href="https://www.telegram.org/" target="_blank">
-                        <ImTelegram />
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.skype.com/en/" target="_blank">
-                        <ImSkype />
-                    </a>
-                </li>
+                {/* <li>
+                    <label>
+                        <FaRegUserCircle />
+                    </label>
+                    <input onChange={changeHandler} />
+                </li> */}
             </ul>
         </div>
     );
